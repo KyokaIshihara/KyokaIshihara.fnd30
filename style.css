@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+  button {
+    margin-top: 10px;
+  }
+  #today {
+    font-size: 30px;
+    color: saddlebrown
+    ;
+}
+  #img {
+    text-align: center;
+  }
+  #today {
+    text-align: center;
+  }
+  .form {
+    text-align: center; 
+  }
+  #output-message {
+    text-align: center;
+  }
