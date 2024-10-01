@@ -4,15 +4,17 @@
     margin-top: 10px;
   }
   #today {
-    font-size: 30px;
-    color: saddlebrown
-    ;
+    font-size: 25px;
+    color: saddlebrown;
+    opacity: 0.8;
 }
   #img {
     text-align: center;
+    opacity: 0.8;
   }
   #today {
     text-align: center;
+    font-weight: bold;
   }
   .form {
     text-align: center; 
@@ -20,3 +22,20 @@
   #output-message {
     text-align: center;
   }
+  .text__bound {
+    animation: key .3s ease infinite alternate;
+  }
+  @keyframes key {
+    0% {transform: translateY(0px);}
+    100% {transform: translateY(-10px);}
+  }
+  .txt2{
+    display: inline-block;
+    width: 40%;
+    padding: 1em 0.5em;
+    line-height: 3;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    margin: 0.5em 0;
+}
